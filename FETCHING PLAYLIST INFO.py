@@ -4,8 +4,8 @@ import requests
 import base64
 
 # Replace with your own Client ID and Client Secret
-CLIENT_ID = '2b255d93474a4bafa86c249367cb381d'
-CLIENT_SECRET = '3d27cca1fdca4120be324db669969bc8'
+CLIENT_ID = 'YOUR CLIENT ID'
+CLIENT_SECRET = 'YOUR CLIENT SECRET ID'
 
 # Base64 encode the client ID and client secret
 client_credentials = f"{CLIENT_ID}:{CLIENT_SECRET}"
@@ -39,7 +39,7 @@ import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-playlist_id = '01iHvP8jQebF6nHZfuaLyC'
+playlist_id = 'YOUR PLAYLIST ID'
 
 sp = spotipy.Spotify(auth=access_token)
 
